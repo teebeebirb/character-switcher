@@ -1,8 +1,10 @@
-# Character Switcher Animation
+# Character Switcher - Text Animation with HTML, CSS and JavaScript
 
 This script creates a glitchy text animation effect by randomly swapping fonts on each character of a user-input string. I was thinking something like this could be applied in loading screens or transition moments where you want something kinetic and eye-catching. You can swap the fonts used if you want to go with a different aesthetic than the pixel style demonstrated in this project.
 
 Play with a live demo: [teebeebirb.github.io/character-switcher](https://teebeebirb.github.io/character-switcher/)
+
+![Screenshot of Character Switcher](https://raw.githubusercontent.com/teebeebirb/character-switcher/refs/heads/main/character-switcher-demo.png)
 
 ## How It Works
 
