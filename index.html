@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Jersey+10&family=Libre+Barcode+39&family=Tiny5&family=Yarndings+12&display=swap" rel="stylesheet">
+    <title>Character Switcher - Text Animation with JavaScript and CSS</title>
+</head>
+
+<body>
+    <main class="pixel-corners-main">
+        <section><h1>Character Switcher</h1>
+            <h2>Randomly animate characters in a string</h2>
+            <p>Inspired by command line ASCII animations, this script creates a glitchy animated loop out of a string of text.</p>
+        </section>
+        
+        <section class="try-it-out">
+            <div class="div-try-child">
+                <h2 class="demo-headings">Try it Out!</h2>
+                <form>
+                <input class="pixel-corners-input pixel-corners-input--wrapper" id="textInput" placeholder="Type in some text" /><br>
+                <label id="delayLabel" for="delayInput">Animation Delay (ms):</label>
+                <input id="delayInput" type="number" min="10" max="1000" value="100"><br>
+                <button type="button" class="pixel-corners-btn" id="submitBtn">Submit</button>
+                <button type="button" class="pixel-corners-btn" id="pauseBtn">Pause</button>
+                <button type="button" class="pixel-corners-btn" id="stopBtn">Stop</button><br>
+                </form>
+            </div>
+            <div class="div-try-child">
+                <h2 class="demo-headings">Preview</h2>
+                <div class="pixel-corners-text-display-area pixel-corners-text-display-area--wrapper">  
+                <p id="displayText"></p>
+                </div>
+            </div>
+        </section>
+            
+    </main>
+
+    <footer>
+        <p>Built by <a href="#" target="_blank">Thalia Bunch</a>. Check out how this project works on <a href="#" target="_blank">Github</a>. </p>
+    </footer>
+
+  <script src="js/character-switcher-animation.js"></script>
+</body>
+
+</html>
