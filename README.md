@@ -36,5 +36,5 @@ The font options come from a predefined list of CSS classes, so the styling can 
 ### Credits
 
 - I was inspired to try animating text by looping through characters thanks to seeing people use Sindre Sorhus's [CLI spinners](https://github.com/sindresorhus/cli-spinners) in their web animations.
-- The pixel border styling was possible thanks to Luke Bonaccorsi's [Pixelated rounded corners](https://pixelcorners.lukeb.co.uk/?radius=8&multiplier=4) generator.
+- The pixel border styling was possible thanks to Luke Morrigan's [Pixelated rounded corners](https://pixelcorners.lukeb.co.uk/?radius=8&multiplier=4) generator.
 - I troubleshooted my code with ChatGPT-4o, and I referenced Codecademy's documentation, Mozilla's JS documentation and Jon Duckett's "JAVASCRIPT AND JQUERY".
